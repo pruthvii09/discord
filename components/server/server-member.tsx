@@ -44,7 +44,7 @@ export const ServerMember = ({ member, server }: ServerMemberProps) => {
             "text-primary dark:text-zinc-200 dark:group-hover:text-white"
         )}
       >
-        {member.profile.name}
+        {member.profile?.name}
       </p>
       {icon}
     </button>

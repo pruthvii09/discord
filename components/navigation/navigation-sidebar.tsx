@@ -32,7 +32,7 @@ const NavigationSidebar = async () => {
             <NavigationItem
               id={server.id}
               imageUrl={server.imageUrl}
-              name={server.name}
+              name={server?.name}
             />
           </div>
         ))}

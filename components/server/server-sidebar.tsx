@@ -85,7 +85,7 @@ export const ServerSidebar = async ({ serverId }: ServerSidebarProps) => {
                 type: "channel",
                 data: textChannels?.map((channel) => ({
                   id: channel.id,
-                  name: channel.name,
+                  name: channel?.name,
                   icon: iconMap[channel.type],
                 })),
               },
@@ -94,7 +94,7 @@ export const ServerSidebar = async ({ serverId }: ServerSidebarProps) => {
                 type: "channel",
                 data: audioChannels?.map((channel) => ({
                   id: channel.id,
-                  name: channel.name,
+                  name: channel?.name,
                   icon: iconMap[channel.type],
                 })),
               },
@@ -103,7 +103,7 @@ export const ServerSidebar = async ({ serverId }: ServerSidebarProps) => {
                 type: "channel",
                 data: videoChannels?.map((channel) => ({
                   id: channel.id,
-                  name: channel.name,
+                  name: channel?.name,
                   icon: iconMap[channel.type],
                 })),
               },

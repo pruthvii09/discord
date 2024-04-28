@@ -3,26 +3,31 @@ import { db } from "./db";
 
 export const initialProfile = async () => {
   const user = await currentUser();
-
+  console.log("user", user);
   if (!user) {
     return redirectToSignIn();
   }
+
   const profile = await db.profile.findUnique({
     where: {
       userId: user.id,
     },
   });
+
   if (profile) {
     return profile;
   }
+  console.log("new_user", user);
 
   const newProfile = await db.profile.create({
     data: {
-      userId: user.id,
-      name: `${user.firstName} ${user.lastName}`,
-      imageUrl: user.imageUrl,
-      email: user.emailAddresses[0].emailAddress,
+      userId: user?.id,
+      name: `${user?.firstName} ${user?.lastName}`,
+      imageUrl: user?.imageUrl,
+      email: user?.emailAddresses[0]?.emailAddress || "",
     },
   });
-  return profile;
+  console.log("user", user);
+
+  return newProfile;
 };
