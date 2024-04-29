@@ -1,3 +1,7 @@
+# Discord
+
+Create vibrant communities where members can engage in real-time voice, video, and text chat, fostering a sense of belonging and camaraderie. Seamlessly organize your conversations into channels, allowing for focused discussions on specific topics or projects.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -14,23 +18,36 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+NextJs, Prisma, MYSQL, Zustand
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Deployment
 
-## Learn More
+https://discord-production-7e7e.up.railway.app/
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Screenshots
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Home Page
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![App Screenshot](https://i.postimg.cc/5t8Xv1T6/Screenshot-2024-04-30-012728.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Add Server
+
+![App Screenshot](https://i.postimg.cc/br5yWFW7/Screenshot-2024-04-30-012757.png)
+
+## Search for Channels/Members
+![App Screenshot](https://i.postimg.cc/6qZ6shKT/Screenshot-2024-04-30-012819.png)
+
+## Manage members
+
+![App Screenshot](https://i.postimg.cc/QCZG7ZLx/Screenshot-2024-04-30-012850.png)
+
+## Video Channel
+
+![App Screenshot](https://i.postimg.cc/LXd0Ckxx/Blur.png)
+
+
+##### by [@Pruthviraj Auti](https://portfoliobuilderpruthvi.vercel.app/pruthvii)
